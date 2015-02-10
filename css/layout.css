@@ -1,0 +1,76 @@
+/*Global
+********************************/
+
+body {
+  margin: 0px auto;
+  text-align: center;
+}
+
+li{
+  display: inline; 
+  text-transform: lowercase;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+h1 {
+  padding-bottom: 2%;
+}
+
+/*Header
+********************************/
+header {
+  background-color: #29d9c2;
+}
+
+/*Sections
+********************************/
+
+.section {
+  padding: 5% 10%;
+}
+
+/*top section
+********************************/
+
+#top {
+  background-color: #EAEAEA;
+}
+
+.main-photo {
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.main-details {
+  text-align: left;
+  margin-right: 5%;
+}
+
+/*about section
+********************************/
+
+#about {
+  background-color: #01A2A6;
+}
+
+/*experience section
+********************************/
+
+#experience {
+  background-color: #EAEAEA;
+}
+
+/*contact section
+********************************/
+
+#contact {
+  background-color: #BDF271;
+}
+
+
+
+
