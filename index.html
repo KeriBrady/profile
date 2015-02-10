@@ -6,97 +6,113 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
   </head>
   <body>
-    <header>
-      <h1>Keri Brady</h1>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-    <section class="top">
-      <img src="">
-      <h1>Main headline</h1>
-      <p>Jean shorts art party irony, locavore fashion axe readymade lo-fi gentrify pour-over. DIY leggings organic, heirloom you probably haven't heard of them. Fixie gluten-free irony selfies iPhone locavore, mumblecore drinking vinegar single-origin coffee farm-to-table post-ironic.</p>
-      <img src="" class="down-arrow">
-    </section>
-    <section class="about">
-      <h1>About me</h1>
-      <div class="about-1">
-        <img src="">
-        <p>Carles keytar chia Truffaut, biodiesel Tumblr seitan try-hard chillwave stumptown chambray Portland PBR cray whatever. Etsy 8-bit next level Truffaut before they sold out meditation, letterpress whatever. Carles listicle High Life whatever Truffaut typewriter, yr Thundercats. Pork belly Shoreditch kogi Brooklyn, whatever keffiyeh sustainable pug. Fixie cronut fashion axe Wes Anderson messenger bag. Readymade yr Wes Anderson Blue Bottle iPhone. +1 next level meditation, cronut jean shorts cred Thundercats keytar keffiyeh cliche Williamsburg.</p>
-      </div>
-      <div class="about-2">
-        <img src="">
-        <p>Leggings taxidermy fashion axe McSweeney's. Brooklyn Neutra meditation farm-to-table Pinterest, taxidermy pork belly. Paleo gastropub tousled Tumblr, VHS cardigan stumptown tattooed Banksy hashtag asymmetrical. Pickled brunch readymade, squid fanny pack polaroid paleo migas cold-pressed hella American Apparel. Fixie cronut fashion axe Wes Anderson messenger bag. Readymade yr Wes Anderson Blue Bottle iPhone. +1 next level meditation, cronut jean shorts cred Thundercats keytar keffiyeh cliche Williamsburg.</p>
-      </div>
-      <div class="about-3">
-        <img src="">
-        <p>Forage ethical Portland, gentrify Echo Park 3 wolf moon artisan mlkshk Kickstarter lo-fi organic lomo XOXO. Actually roof party jean shorts, Helvetica kitsch chillwave fixie put a bird on it locavore Brooklyn. Twee taxidermy locavore artisan sriracha, lo-fi Truffaut Marfa 90's fashion axe pug crucifix flannel. 8-bit Williamsburg asymmetrical cold-pressed pour-over wayfarers.</p>
-      </div>
-      <img src="" class="down-arrow">
-    </section>
-    <section class="experience">
-      <h1>My professional experience</h1>
-      <section class="experience-wrapper">
-        <section class="experience-detail">
-          <h1>WWU</h1>
-          <p>Details here!</p>
-        </section>
-        <section class="experience-detail">
-          <h1>Retail Management</h1>
-          <p>Details here!</p>
-        </section>
-        <section class="experience-detail">
-          <h1>Marketing</h1>
-          <p>Details here!</p>
-        </section>
-        <section class="experience-detail">
-          <h1>Web UI Development</h1>
-          <p>Details here!</p>
-        </section>
-        <section class="experience-detail">
-          <h1>Future Plans</h1>
-          <p>Details here!</p>
+    <div class="grid-container">
+      <header class="grid-100">
+        <h1>Keri Brady</h1>
+        <nav>
+          <ul class="header-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section grid-100" id="top">
+        <div class="main-photo grid-48">
+          <img src="http://placehold.it/400x400">
+        </div>
+        <div class="main-details grid-48">
+          <h1>Main headline</h1>
+          <p>Jean shorts art party irony, locavore fashion axe readymade lo-fi gentrify pour-over. DIY leggings organic, heirloom you probably haven't heard of them. Fixie gluten-free irony selfies iPhone locavore, mumblecore drinking vinegar single-origin coffee farm-to-table post-ironic.</p>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <h1>About me</h1>
+        <section class="grid-100">
+          <div class="about-details grid-33">
+            <img src="http://placehold.it/200x200">
+            <p>Carles keytar chia Truffaut, biodiesel Tumblr seitan try-hard chillwave stumptown chambray Portland PBR cray whatever. Etsy 8-bit next level Truffaut before they sold out meditation, letterpress whatever. Carles listicle High Life whatever Truffaut typewriter, yr Thundercats. Pork belly Shoreditch kogi Brooklyn, whatever keffiyeh sustainable pug. Fixie cronut fashion axe Wes Anderson messenger bag. Readymade yr Wes Anderson Blue Bottle iPhone. +1 next level meditation, cronut jean shorts cred Thundercats keytar keffiyeh cliche Williamsburg.</p>
+          </div>
+          <div class="about-details grid-33">
+            <img src="http://placehold.it/200x200">
+            <p>Leggings taxidermy fashion axe McSweeney's. Brooklyn Neutra meditation farm-to-table Pinterest, taxidermy pork belly. Paleo gastropub tousled Tumblr, VHS cardigan stumptown tattooed Banksy hashtag asymmetrical. Pickled brunch readymade, squid fanny pack polaroid paleo migas cold-pressed hella American Apparel. Fixie cronut fashion axe Wes Anderson messenger bag. Readymade yr Wes Anderson Blue Bottle iPhone. +1 next level meditation, cronut jean shorts cred Thundercats keytar keffiyeh cliche Williamsburg.</p>
+          </div>
+          <div class="about-details grid-33">
+            <img src="http://placehold.it/200x200">
+            <p>Forage ethical Portland, gentrify Echo Park 3 wolf moon artisan mlkshk Kickstarter lo-fi organic lomo XOXO. Actually roof party jean shorts, Helvetica kitsch chillwave fixie put a bird on it locavore Brooklyn. Twee taxidermy locavore artisan sriracha, lo-fi Truffaut Marfa 90's fashion axe pug crucifix flannel. 8-bit Williamsburg asymmetrical cold-pressed pour-over wayfarers.</p>
+          </div>
         </section>
       </section>
-      <img src="" class="down-arrow">
-    </section>
-    <section class="contact">
-      <h1>Contact me</h1>
-      <form class="contact-form"></form>
-      <div class="contact-details">
-        <h2>Email</h2>
-        <p>keridbrady@gmail.com</p>
-        <h2>On the web</h2>
-        <ul>
-          <li>Twitter</li>
-          <li>LinkedIn</li>
-          <li>GitHub</li>
-        </ul>
-      </div>
-    </section>
-    <footer>
-      <div class="copyright">
-        <p>&copy;2015 Keri Brady</p>
-      </div>
-      <div class="footer-nav">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </div>
-      <div class="social-buttons">
-        <img src="" alt="Twitter">
-        <img src="" alt="LinkedIn">
-        <img src="" alt="GitHub">
-      </div>
-    </footer>
+      <section class="section" id="experience">
+        <h1>My professional experience</h1>
+        <section class="grid-100">
+          <section class="experience-detail grid-20">
+            <img src="http://placehold.it/100x100" alt="WWU icon">
+            <h1>WWU</h1>
+            <p>Details here!</p>
+          </section>
+          <section class="experience-detail grid-20">
+            <img src="http://placehold.it/100x100" alt="Retail Management icon">
+            <h1>Retail Management</h1>
+            <p>Details here!</p>
+          </section>
+          <section class="experience-detail grid-20">
+            <img src="http://placehold.it/100x100" alt="Marketing icon">
+            <h1>Marketing</h1>
+            <p>Details here!</p>
+          </section>
+          <section class="experience-detail grid-20">
+            <img src="http://placehold.it/100x100" alt="Web UI icon">
+            <h1>Web UI Development</h1>
+            <p>Details here!</p>
+          </section>
+          <section class="experience-detail grid-20">
+            <img src="http://placehold.it/100x100" alt="Future icon">
+            <h1>Future Plans</h1>
+            <p>Details here!</p>
+          </section>
+        </section>
+      </section>
+      <section class="section" id="contact">
+        <h1>Contact me</h1>
+        <section class="grid-100">
+          <div class="grid-50">
+            <h2>Email</h2>
+            <p>keridbrady@gmail.com</p>
+            <h2>On the web</h2>
+            <ul>
+              <li>Twitter</li>
+              <li>LinkedIn</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div class="grid-50">
+            <img src="http://placehold.it/300x300">
+          </div>
+        </section>
+      </section>
+      <footer>
+        <div class="copyright">
+          <p>&copy;2015 Keri Brady</p>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-buttons">
+          <img src="" alt="Twitter">
+          <img src="" alt="LinkedIn">
+          <img src="" alt="GitHub">
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
