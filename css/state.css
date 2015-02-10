@@ -1,0 +1,53 @@
+a:link {
+  color: #FFF;
+}
+
+a:visited {
+  color: #FFF;
+}
+
+.header-nav li:nth-child(1) a:hover {
+  background-color: #8CBEB2;
+  border-radius: 5px;
+}
+
+.header-nav li:nth-child(2) a:hover {
+  background-color: #EAEAEA;
+  border-radius: 5px;
+}
+
+.header-nav li:nth-child(3) a:hover {
+  background-color: #F3C762;
+  border-radius: 5px;
+}
+
+.footer-nav li:nth-child(1) a:hover{
+  color: #F06060;
+  font-weight: bold;
+}
+
+.footer-nav li:nth-child(2) a:hover{
+  color: #8CBEB2;
+  font-weight: bold;
+}
+
+.footer-nav li:nth-child(3) a:hover{
+  color: #EAEAEA;
+  font-weight: bold;
+}
+
+.footer-nav li:nth-child(4) a:hover{
+  color: #F3C762;
+  font-weight: bold;
+}
+
+.contact-details a:hover {
+  color: #F06060;
+}
+
+
+
+
+
+
+

@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
   </head>
   <body>
-    <div class="grid-container">
+    <div class="grid-container" id="top">
       <header class="grid-100">
-        <h1>Keri Brady</h1>
+        <h1 id="name">Keri Brady</h1>
         <nav>
           <ul class="header-nav">
             <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
           </ul>
         </nav>
       </header>
-      <section class="section grid-100" id="top">
+      <section class="section grid-100" id="intro">
         <div class="main-photo grid-48">
           <img src="http://placehold.it/400x400">
         </div>
@@ -48,7 +48,7 @@
         </section>
       </section>
       <section class="section" id="experience">
-        <h1>My professional experience</h1>
+        <h1>Professional experience</h1>
         <section class="grid-100">
           <section class="experience-detail grid-20">
             <img src="http://placehold.it/100x100" alt="WWU icon">
@@ -67,7 +67,7 @@
           </section>
           <section class="experience-detail grid-20">
             <img src="http://placehold.it/100x100" alt="Web UI icon">
-            <h1>Web UI Development</h1>
+            <h1>Web UI Dev</h1>
             <p>Details here!</p>
           </section>
           <section class="experience-detail grid-20">
@@ -80,14 +80,14 @@
       <section class="section" id="contact">
         <h1>Contact me</h1>
         <section class="grid-100">
-          <div class="grid-50">
+          <div class="contact-details grid-35">
             <h2>Email</h2>
-            <p>keridbrady@gmail.com</p>
+            <a href="mailto:keridbrady@gmail.com">keridbrady@gmail.com</a>
             <h2>On the web</h2>
-            <ul>
-              <li>Twitter</li>
-              <li>LinkedIn</li>
-              <li>GitHub</li>
+            <ul class="social-list">
+              <li><a href="https://twitter.com/KeriDBrady" target="_blank">Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/bradykeri/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/KeriBrady" target="_blank">GitHub</a></li>
             </ul>
           </div>
           <div class="grid-50">
@@ -95,11 +95,11 @@
           </div>
         </section>
       </section>
-      <footer>
-        <div class="copyright">
-          <p>&copy;2015 Keri Brady</p>
+      <footer class="grid-100">
+        <div class="copyright grid-33">
+          <p>&copy; 2015 Keri Brady</p>
         </div>
-        <div class="footer-nav">
+        <div class="footer-nav grid-33">
           <ul>
             <li><a href="#top">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -107,10 +107,10 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div class="social-buttons">
-          <img src="" alt="Twitter">
-          <img src="" alt="LinkedIn">
-          <img src="" alt="GitHub">
+        <div class="social-buttons grid-33">
+          <a href="https://twitter.com/KeriDBrady" target="_blank"><img src="" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/bradykeri/" target="_blank"><img src="" alt="LinkedIn"></a>
+          <a href="https://github.com/KeriBrady" target="_blank"><img src="" alt="GitHub"></a>
         </div>
       </footer>
     </div>

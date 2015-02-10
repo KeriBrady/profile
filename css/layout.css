@@ -1,6 +1,8 @@
 /*Global
 ********************************/
 
+@import url(http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Montez);
+
 body {
   margin: 0px auto;
   text-align: center;
@@ -17,25 +19,54 @@ ul {
 
 h1 {
   padding-bottom: 2%;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Header
 ********************************/
 header {
-  background-color: #29d9c2;
+  background-color: #F06060;
 }
 
-/*Sections
+#name {
+  font-family: 'Montez', cursive;
+  font-size: 3.5em;
+  padding-bottom: 0;
+}
+
+.header-nav {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  width: 100%;
+  list-style: none;
+}
+
+.header-nav li a {
+  display: inline;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+
+/*    SECTIONS
 ********************************/
 
 .section {
   padding: 5% 10%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
 }
 
-/*top section
+/*intro section
 ********************************/
 
-#top {
+#intro {
   background-color: #EAEAEA;
 }
 
@@ -54,7 +85,7 @@ header {
 ********************************/
 
 #about {
-  background-color: #01A2A6;
+  background-color: #8CBEB2;
 }
 
 /*experience section
@@ -64,13 +95,56 @@ header {
   background-color: #EAEAEA;
 }
 
+.experience-detail h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
 /*contact section
 ********************************/
 
 #contact {
-  background-color: #BDF271;
+  background-color: #F3C762;
+  font-weight: bold;
 }
 
+.contact-details {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 15%;
+}
 
+.social-list li {
+  display: block;
+  text-transform: none;
+  font-family: 'Roboto', sans-serif;
+}
 
+h2:nth-child(3) {
+  padding-top: 5%;
+}
 
+/*Footer
+********************************/
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #737373;
+  color: #FFF;
+  font-size: .9em;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav li a {
+  display: inline;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-buttons {
+  
+}
