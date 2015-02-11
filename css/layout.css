@@ -145,6 +145,7 @@ footer {
   font-weight: bold;
 }
 
-.social-buttons {
-  
+.social-buttons img {
+  width: 35px;
+  margin-top: 4px;
 }
