@@ -41,13 +41,9 @@ a:visited {
   font-weight: bold;
 }
 
-.contact-details a:hover {
+.contact-details a:hover, .image-credit a:hover {
   color: #F06060;
 }
-
-
-
-
 
 
 

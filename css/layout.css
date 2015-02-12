@@ -76,6 +76,10 @@ header {
   margin-left: 5%;
 }
 
+.main-photo img {
+  width: 350px;
+}
+
 .main-details {
   text-align: left;
   margin-right: 5%;
@@ -145,6 +149,15 @@ footer {
   font-weight: bold;
 }
 
-.social-buttons {
-  
+.social-buttons img {
+  width: 35px;
+  margin-top: 5px;
+}
+
+.image-credit {
+  font-size: .75em;
+}
+
+.image-credit a {
+  text-decoration: underline;
 }
