@@ -92,6 +92,11 @@ header {
   background-color: #8CBEB2;
 }
 
+.about-details p {
+  text-align: justify;
+  padding: 0 7%;
+}
+
 /*experience section
 ********************************/
 
@@ -99,9 +104,23 @@ header {
   background-color: #EAEAEA;
 }
 
+.justify p {
+  text-align: justify;
+}
+
+.row2-experience {
+  margin-top: 3%;
+}
+
 .experience-detail h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+.experience-detail p {
+  font-size: .95em;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 /*contact section
@@ -156,8 +175,5 @@ footer {
 
 .image-credit {
   font-size: .75em;
-}
-
-.image-credit a {
-  text-decoration: underline;
+  margin-top: 0px;
 }
